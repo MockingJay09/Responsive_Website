@@ -1,1 +1,2 @@
-<h1>CASE STUDY ON RESPONSIVE WEBSITE</h1>
+CASE STUDY ON RESPONSIVE WEBSITE
+![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
