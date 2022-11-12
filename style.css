@@ -1,0 +1,217 @@
+/* universal styling */
+
+body{
+    background-color: black;
+    opacity: 0.9;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: auto;
+}
+
+header{
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    position:fixed;
+    z-index:10;
+    width:100%;
+    height:69px;
+    top:0px;
+}
+nav{
+   display:flex;
+   align-items: center;
+}
+
+#M,#L,#F{
+    color:seashell;
+    opacity: 0.9;
+    display:inline-block;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    margin:auto 20px;
+    
+}
+
+.logo{
+    display:flex;
+    margin-left:10px;
+    height: 50px;
+}
+
+/* banner section*/
+
+.container{
+    margin:4.5em 0 auto;
+}
+
+.banner{
+    display:grid;
+    place-items:center;
+    position:relative; 
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner-content{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    color:white;
+    background-color: black;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.0em;
+}
+
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+
+.banner h2{
+    margin-top:8px;
+    margin-bottom:20px;
+}
+.banner h4{
+    margin-top:20px;
+    margin-bottom:8px;
+}
+
+@media only screen and (max-width:640px){
+    nav{
+        display:none;
+    }
+} 
+
+/* tea-showcase section */
+.tea-container{
+    width:100%;
+    height: auto;
+    margin:auto;
+    max-width: 1000px;
+}
+
+.tea-showcase{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.tea-showcase .tea-content{
+    width:100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    margin:auto;
+}
+
+
+.tea-pictures{
+    display: flex;
+    max-width: 1000px;
+    color:white;
+    text-align: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+}
+
+
+.tea-showcase  a img{
+    height: 200px;
+    width: 300px;
+    margin:12px 15px;
+}
+
+
+/*location section */
+.locations{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative; 
+    background-size: cover;
+    background-position: center;
+}
+
+.locations .location-header{
+    bottom:3.5em;
+    font-weight: bold;
+    font-size: 42px;
+    position:absolute; 
+    text-align: center;
+}
+
+.locations .locations-content {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    text-align: center;
+    min-width: 300px;
+    color:white;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.0em;
+}
+
+.l1,.l2,.l3{
+    min-width: 300px;
+    margin:auto 1em;
+    background-color: black;
+}
+
+.locations .locations-banner img{
+    max-width: 1200px;
+    width:100%;
+    height: auto;
+}
+
+@media only screen and (max-width:995px){
+    .locations{
+        top:6em;
+    }
+
+    .locations .location-header{
+        bottom:5.7em;
+    }
+
+    .l1,.l2,.l3{
+        min-width: 5.5em;
+        margin:1em;    
+        background-color: black;
+    }
+}
+
+/*footer*/
+.foot{
+    color:white;
+    text-align: center;
+}
+
+.copyright{
+    color:white;
+    bottom:0px;
+    left:1em;
+    margin-left:.5em;
+}
+
+@media only screen and (max-width:995px){
+    .foot{
+        margin-top: 8em;
+    }
+
+    .copyright{
+        margin-top: 4em;
+    }
+}
